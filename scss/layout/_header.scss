@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem clamp(2rem,15vw,10rem) 0 clamp(2rem,15vw,10rem);
+    font-size: 1.25rem;
+     background:$bg-light;
+     p{
+        font-weight: bold;
+
+     }
+}
+nav{
+    display: none;
+}

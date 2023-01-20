@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1200px) {
+    .burger-toggle{
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-grow: 1;
+        gap:1rem;
+    }
+    .align{
+        margin-left: auto;
+    }
+    .primary-nav{
+        display: flex;
+        gap:1rem;
+        align-items: center;
+    }
+    .hero-section{
+        width: 100%;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 5rem 0;
+        img{
+            width:clamp(30rem,50vw,50rem)
+        }
+        p, h1{
+            max-width: 30rem;
+        }
+
+    }
+    .left-hero{
+        width:clamp(20rem,50vw,35rem);
+
+        a{
+            align-self: flex-start;
+        }
+    }
+
+    .feature-section{
+        width:clamp(40rem,80vw,80rem);
+
+    }
+    .feature-wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin: 4rem 0;
+    }
+    .trial-section{
+        width:clamp(40rem,80vw,80rem)
+    }
+    .trial-card{
+        flex-direction: row;
+        justify-content: space-around;
+        img{
+            max-width: 30rem;
+        }
+        p{
+            max-width: 28rem;
+        }
+    }
+    .left-trial-card{
+        align-self: center;
+        padding-bottom: 3rem;
+        gap:2rem;
+        a{
+            align-self: flex-start;
+        }
+    }
+
+
+
+    .testimonial-section{
+         width:clamp(40rem,90vw,90rem)
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .footer-col-wrapper{
+        width: auto;
+    }
+}
